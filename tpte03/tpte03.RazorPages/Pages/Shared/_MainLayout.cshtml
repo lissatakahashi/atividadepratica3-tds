@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback de Clientes</title>
+        <link rel="stylesheet" href="~Aula03.styles.css" asp-append-version="true"/>
+    </head>
+    <body>
+        <header>
+            <partial name="./_MainMenuPartialPage.cshtml"/>
+        </header>
+        <main>
+            @RenderBody()
+        </main>
+        <p><hr></p>
+        <footer>2023 - Lissa Takahashi</footer>
+
+        @RenderSection("scripts", required:false)
+    </body>
+</html>
