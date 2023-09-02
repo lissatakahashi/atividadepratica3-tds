@@ -1,20 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+using tpte03.RazorPages.Data;
 
 namespace tpte03.RazorPages.Pages.Feedback
 {
     public class Index : PageModel
     {
-        private readonly ILogger<Index> _logger;
-
-        public Index(ILogger<Index> logger)
+        private readonly AppDbContext _context;
+        public Index(AppDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public void OnGet()
