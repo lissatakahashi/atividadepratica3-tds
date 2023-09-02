@@ -24070,6 +24070,11 @@
       "FilePath": "c:\\Users\\lilit\\OneDrive\\Documentos\\faculdade\\2023-2\\tds\\atividadepratica3-tds\\tpte03\\tpte03.RazorPages\\Pages\\Feedback\\Delete.cshtml",
       "TargetPath": "Pages\\Feedback\\Delete.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lilit\\OneDrive\\Documentos\\faculdade\\2023-2\\tds\\atividadepratica3-tds\\tpte03\\tpte03.RazorPages\\Pages\\Feedback\\Create.cshtml",
+      "TargetPath": "Pages\\Feedback\\Create.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

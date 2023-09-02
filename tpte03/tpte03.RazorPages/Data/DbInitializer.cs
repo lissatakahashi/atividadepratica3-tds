@@ -10,8 +10,8 @@ namespace tpte03.RazorPages.Data {
 
             var feedbacks = new FeedbackModel[] {
                 new FeedbackModel{
-                    NomeCliente = "Lissa Takahashi",
-                    EmailCliente = "lissa@gmail.com",
+                    NomeCliente = "Alícia Campos",
+                    EmailCliente = "aliciacampos@gmail.com",
                     DataFeedback = DateTime.Parse("2023-09-01"),
                     Comentario = "Ótimo produto.",
                     Avaliacao = 5
