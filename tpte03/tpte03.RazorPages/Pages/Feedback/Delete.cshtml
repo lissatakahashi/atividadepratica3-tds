@@ -1,0 +1,19 @@
+@page "{id:int}"
+@model tpte03.RazorPages.Pages.Feedback.Delete
+
+<div>
+    <h1>Detalhes do item para remover</h1>
+
+    <p><strong>Nome:</strong> @Model.FeedbackModel.NomeCliente</p>
+    <p><strong>E-mail:</strong> @Model.FeedbackModel.EmailCliente</p>
+    <p><strong>Data:</strong> @Model.FeedbackModel.DataFeedback</p>
+    <p><strong>Comentário:</strong> @Model.FeedbackModel.Comentario</p>
+    <p><strong>Avaliação:</strong> @Model.FeedbackModel.Avaliacao</p>
+</div>
+
+<form method="post">
+    <div class="form-group">
+        <input type="submit" value="Delete" class="btn btn-danger">
+        <a asp-page="./Feedback/Index" class="btn btn-primary">Retornar para a listagem</a>
+    </div>
+</form>

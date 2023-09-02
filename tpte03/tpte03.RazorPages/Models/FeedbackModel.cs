@@ -10,6 +10,7 @@ namespace tpte03.RazorPages.Models {
         public string? NomeCliente { get; set; }
         public string? EmailCliente { get; set; }
         [Required(ErrorMessage = "Data é obrigatória")]
+        [DisplayFormat(DataFormatString ="{0:dd MMM yyyy}")]
         public DateTime? DataFeedback { get; set; }
         [Required(ErrorMessage = "Comentário é obrigatório")]
         public string? Comentario { get; set; }

@@ -1,0 +1,14 @@
+@page "{id:int}"
+@model tpte03.RazorPages.Pages.Feedback.Details
+
+<h1>Detalhes do Feedback</h1>
+
+<div>
+    <p><strong>Nome:</strong> @Model.FeedbackModel.NomeCliente</p>
+    <p><strong>E-mail:</strong> @Model.FeedbackModel.EmailCliente</p>
+    <p><strong>Data:</strong> @Model.FeedbackModel.DataFeedback</p>
+    <p><strong>Comentário:</strong> @Model.FeedbackModel.Comentario</p>
+    <p><strong>Avaliação:</strong> @Model.FeedbackModel.Avaliacao</p>
+
+    <a asp-page="Index">Voltar para a lista</a>
+</div>

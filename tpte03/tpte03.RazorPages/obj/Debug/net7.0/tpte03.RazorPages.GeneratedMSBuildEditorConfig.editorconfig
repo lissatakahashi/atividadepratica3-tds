@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\lilit\OneDrive\Documentos\faculdade\2023-2\tds\atividadepratica3-tds\tpte03\tpte03.RazorPages
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/lilit/OneDrive/Documentos/faculdade/2023-2/tds/atividadepratica3-tds/tpte03/tpte03.RazorPages/Pages/Feedback/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZGJhY2tcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/lilit/OneDrive/Documentos/faculdade/2023-2/tds/atividadepratica3-tds/tpte03/tpte03.RazorPages/Pages/Feedback/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZGJhY2tcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/lilit/OneDrive/Documentos/faculdade/2023-2/tds/atividadepratica3-tds/tpte03/tpte03.RazorPages/Pages/Feedback/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZGJhY2tcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/lilit/OneDrive/Documentos/faculdade/2023-2/tds/atividadepratica3-tds/tpte03/tpte03.RazorPages/Pages/Feedback/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZGJhY2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
