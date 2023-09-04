@@ -16,4 +16,11 @@ Cada feedback deve ter as seguintes propriedades:
 
 A aplicação deve permitir que os usuários insiram seus feedbacks através de um formulário simples. Além disso, deve ser possível visualizar todos os feedbacks em uma lista, bem como editar ou excluir um feedback específico.
 
+## Como executar a aplicação:
+
+- Abra o projeto no Visual Studio Code;
+- Clique com o botão direito no arquivo "Program.cs";
+- Clique na opção "Open in Integrated Terminal";
+- No terminal, digite "dotnet watch run".
+
  
